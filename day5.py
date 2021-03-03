@@ -1,5 +1,4 @@
 #%%
-import itertools
 # PART 1
 lines = []
 with open("day5.txt","r") as a:
@@ -9,9 +8,6 @@ with open("day5.txt","r") as a:
 # Easier
 max([int(l.replace("F","0").replace("L","0").replace("B","1").replace("R","1").strip(),2) for l in lines])
 
-ss = {int(l.replace("F","0").replace("L","0").replace("B","1").replace("R","1").strip(),2) for l in lines}
-
-res = itertools.accumulate(max(ss).difference(min(ss)))
 
 #%%
 # Part 2

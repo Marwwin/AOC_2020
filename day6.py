@@ -17,7 +17,6 @@ for l in lines:
 
 total = 0
 for g in groups:
-    print(g)
     total = total + len("".join(set(g)))
 
 print("part1: "+str(total))
@@ -56,3 +55,5 @@ for g in groups:
 print(total)
     
 
+
+# %%

@@ -43,15 +43,8 @@ with open("day7.txt","r") as a:
     lines = a.readlines()
 
 def test(lines, gold):
-    newLines = [] 
     golds = {}
     total = 1
-
-    #if len(gold) != 1:
-    #    for g in gold:
-    #        golds.append(g)
-    ## Remove duplicates
-    #golds = list(dict.fromkeys(golds))
 
     for l in lines:
         bag,contains = l.split("bags contain")
@@ -73,12 +66,7 @@ while True:
         break
 
 print(bag)
-
-#def recur(lines,gold):
-#    for l in lines:
-#        bag,contains = l.split("bags contain")
-#        if bag.find(gold) != -1
-#            
+  
 
 #%%
 
@@ -123,8 +111,9 @@ def test(gold):
                 return tem
     
 # Output will be 1 greater than it should
-test(["1 shiny gold"])
+test(["1 shiny gold"])-1
 
 
 
     
+# %%

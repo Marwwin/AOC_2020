@@ -30,6 +30,7 @@ for p in fp:
 print(correctPass)
 
 #%%
+
 import re
 
 def makePassports(dataI):
@@ -110,32 +111,3 @@ for f in passports:
 
 print(correct)
 
-#%%
-
-"sbyritsdf".find("its")
-
-#import re
-
-#line = []
-#with open("day4.txt", "r") as a:
-#    line = a.readlines()
-#
-#fp = []
-#pas = ""
-#
-#cr = ["byr","iyr","eyr","hgt","hcl","ecl","pid"]
-#
-#for p in line:
-#    if p != "\n":
-#        pas = pas + p
-#    else:
-#        fp.append(pas)
-#        pas = ""
-#
-#for p in fp[0:2]:   
-#    print(p)
-#
-#len(fp)
-#
-##%%
-#0 != 6

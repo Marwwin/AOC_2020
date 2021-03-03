@@ -75,8 +75,3 @@ print(one+two+three)
 
 1,1,3,2,1,2,1,1
 
-
-#%%
-["fizzbuzz"if i%15==0 else"buzz"if i%5==0 else"fizz"if i%3==0 else i for i in range(1,100)]
-
-#for i in range(1,100):print("fizzbuzz" if i%15==0 else "buzz" if i%5==0 else "fizz" if i%3==0 else i)

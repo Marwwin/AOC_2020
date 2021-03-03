@@ -15,7 +15,6 @@ with open("day9.txt","r") as a:
 
 lines = [int(l.strip()) for l in lines]
 
-#print(lines[0:25])
 for i in range(25, len(lines)):
     isT = test25(lines[i], lines[i-25:i])
     if isT == False:
